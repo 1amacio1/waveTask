@@ -1,0 +1,84 @@
+html, body {
+    background: rgb(5,12,50);
+    background: radial-gradient(circle, rgba(5,12,50,1) 0%, rgba(0,0,0,1) 100%);
+    color: #000;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-box {
+    margin-left: 44vw;
+	 margin-top: 42vh;
+}
+
+.title {
+    font-size: 3em;
+}
+a {
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+
+A:hover {
+    color: red;
+    text-decoration: none;
+}
+
+A:active {
+    color:  red;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.75em;
+    align-content: center;
+    color: white;
+}
+
+table { 
+    width: 600px;
+    height: 300px;
+    border: 1px;
+    align-items: center;
+    border-color: black;
+}
+hr {
+    border: none;
+    background-color: white;
+    color: white;
+    height: 2px;
+}
+
+.copy{
+    position: absolute;
+    right: -1%;
+    width: 100%;
+    color: white;
+}
+
+.list {
+    font-size: 1.75em;
+    color: white;
+    position: top;
+}
+
+
+A {
+    color: white;
+}
+
+.term {
+        display:block;
+        position:absolute;
+        bottom:200px;
+        right:0;
+        width:100%;
+    }
+
+.comp{
+    font-size: 1.75em;
+}
+
+.image{
+    height: 400px;
+}
